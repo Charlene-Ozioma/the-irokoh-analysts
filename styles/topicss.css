@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #4B0082;
+  background-color: #f9f9f9;
+}
+
+
+/* Basic card styling */
+.topic-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  background-color: #f9f9f9;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.topic-card:hover {
+  transform: scale(1.05);
+}
+
+/* Topic title as image replacement */
+.topic-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Description styling */
+.topic-card p {
+  font-size: 1em;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+/* Button styling */
+.request-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.request-btn:hover {
+  background-color: #0056b3;
+}
+
+.purchase-btn, .custom-assistance-btn {
+  padding: 0.8em 1.2em;
+  margin: 0.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  color: #fff;
+}
+
+.purchase-btn {
+  background-color: #4B0082;
+}
+
+
+
+.container {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #4B0082;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.section {
+  margin-bottom: 1.5em;
+}
+.section h2 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+.section p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
+.price-section {
+  text-align: center;
+  margin-top: 1em;
+}
+.price-section .price {
+  font-size: 1.5em;
+  color: #4B0082;
+  font-weight: bold;
+}
+.buy-button {
+  background-color: #4B0082;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.buy-button:hover {
+  background-color: #3a005f;
+}

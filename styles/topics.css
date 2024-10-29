@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.detailed-view {
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: #4B0082;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.abstract, .expect, .pricing {
+  margin-top: 1.5em;
+}
+
+h2 {
+  color: #4B0082;
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.2em;
+  line-height: 1.6;
+}
+
+.purchase-btn, .custom-assistance-btn {
+  padding: 0.8em 1.2em;
+  margin: 0.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  color: #fff;
+}
+
+.purchase-btn {
+  background-color: #4B0082;
+}
+
+.custom-assistance-btn {
+  background-color: #6a0dad;
+}
+
+.purchase-btn:hover, .custom-assistance-btn:hover {
+  opacity: 0.9;
+}
